@@ -1,0 +1,121 @@
+/*---------------------font-------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap'); 
+ body{ 
+ font-family: 'Quicksand', sans-serif; 
+ background-image: url('REG_IMG/BG.png');
+ background-repeat: no-repeat;
+ background-size: 1170px, 1170px;
+  background-attachment: fixed;
+  background-position: center;
+ }
+ /*------------------font-------------------*/
+ 
+ /*--------------------buttons-and-bg---------------------*/
+ 
+ button {
+    background: #448800; 
+    color: #fff; 
+    border-radius: 20px;
+    padding: 1rem 1.5rem; 
+    margin-bottom: 1rem; 
+ }
+ 
+body{
+   backround: black;
+   color: white;
+}
+#button:active{
+	transform: scale(0.95);
+}
+
+
+
+.green{
+	backround-color: #499100;
+}
+
+header{
+	backround-color: #499100;
+}
+/*-----------------------------buttons-and-bg----------------------*/
+
+/*---------------------menu--------------------------*/
+.top_menu li{
+	margin-right: 25px;
+   display: inline-block;  
+   vertical-align: middle;
+}
+
+.logo, ..top_menu{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+header{
+	display: flex;
+	justify-content: center;
+}
+
+.top_menu a{
+	vertical-align: middle;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 15px;
+	color: #E4FFC9;
+}
+
+.top_menu a:hover{
+	color: #006A12;
+}
+
+a {
+	text-decoration: none;
+}
+
+/*---------------------Menu--------------------------*/
+
+/*---------------------footer-settings----------------*/
+* {
+	margin: 0;
+	padding: 0;
+}
+html,
+body,
+.wrapper {
+	height: 100%;
+}
+.content {
+	box-sizing: border-box;
+	min-height: 100%;
+	padding-bottom: 90px;
+}
+.footer {
+	height: 80px;
+	margin-top: -80px;
+	backround-color: #101F00;
+}
+/*---------------------------footer-settings-------------------*/
+/*---------------------img-------------*/
+ img{
+ 	border-radius: 26px;
+}
+/*---------------------img-------------*/
+
+html, body {
+	height: 100%;
+}
+
+.wrapper {
+	min-height: 100%;
+	flex-direction: column;
+}
+
+.main {
+	flex: 1 1 auto;
+}
+
+.mewsim {
+	color: #FFDE00;
+}
+
+
+
